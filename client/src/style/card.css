@@ -1,0 +1,16 @@
+.Card {
+    border-radius: 5%;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 5px 5px 40px #2d2c2c;
+    width: 400px;
+  }
+  
+  .List-card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  

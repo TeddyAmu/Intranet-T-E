@@ -1,0 +1,35 @@
+.Header {
+  background-color: #ff6b6b;
+  padding: 20px;
+  color: white; /* Texte en blanc pour contraste */
+}
+
+/* CSS POUR LA NAVIGATION */
+.Nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.Nav-title {
+  font-size: 20px;
+  color: white; /* Texte en blanc */
+}
+
+.Nav-link {
+  margin: 0 20px;
+  padding: 5px;
+  color: white; /* Texte en blanc */
+  text-decoration: none;
+}
+.Nav-link:hover {
+  color: #c9302c; /* Couleur au survol */
+}
+
+@media screen and (max-width: 600px) {
+  .Nav {
+    flex-direction: column;
+  }
+}
